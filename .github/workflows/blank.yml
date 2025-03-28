@@ -38,4 +38,4 @@ jobs:
           build_dir: dist
         env:
           # Assurez-vous que le token est défini dans vos secrets (souvent nommé GITHUB_TOKEN ou un autre nom personnalisé)
-          GITHUB_TOKEN: ${{ secrets.SnakeGame }}
+          GITHUB_TOKEN: ${{ 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 }}
