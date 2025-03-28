@@ -12,27 +12,11 @@ Je suis développeur **.NET/Blazor** passionné et toujours en quête de nouveau
 
 ---
 
-## Compétences
-
-**Langages & Technologies :**
-- C#
-- .NET
-- Blazor
-- SQL
-- Python
-
----
-
 ## Technologies Utilisées
 
 Voici quelques-unes des technologies que j'utilise, illustrées par des badges colorés grâce à [Colored Badges](https://github.com/MikeCodesDotNET/ColoredBadges):
 
-- **C#** : ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-- **.NET** : ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white)
-- **Blazor** : ![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white)
-- **SQL** : ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-- **Python** : ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
- 
+- ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)  ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white)  ![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white)  ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)   ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ---
 
