@@ -6,7 +6,7 @@ Je suis développeur **.NET/Blazor** passionné et toujours en quête de nouveau
 
 ## À propos de moi
 
-- **Développeur .NET/Blazor :** Spécialisé dans la création d’applications web modernes et performantes.  
+- **Développeur .NET/Blazor :** Spécialisé dans la création d’applications modernes et performantes.  
 - **Apprenant perpétuel :** Toujours curieux et en recherche de nouvelles technologies à maîtriser.  
 
 ---
