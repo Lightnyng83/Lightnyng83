@@ -1,6 +1,5 @@
-# Bonjour, je suis **Votre Nom** 👋
 
-Bienvenue sur mon profil GitHub !  
+# Bienvenue sur mon profil GitHub du PandaCodeur !  
 Je suis développeur **.NET/Blazor** passionné et toujours en quête de nouveaux défis pour perfectionner mes compétences et partager mes connaissances.
 
 ---
@@ -27,9 +26,9 @@ Je suis développeur **.NET/Blazor** passionné et toujours en quête de nouveau
 ## Projets en avant
 
 Quelques-uns de mes projets les plus significatifs :
-- **Projet 1 :** Description rapide et impactante.
-- **Projet 2 :** Description rapide et impactante.
-- **Projet 3 :** Description rapide et impactante.
+- **Projet 1 :** Hyperion Interstellar Website.
+- **Projet 2 :** HemiolePro GED.
+- **Projet 3 :** Checkmate.
 
 ---
 
