@@ -1,36 +1,53 @@
 name: generate animation
 
 on:
-  push:
-    branches: [ "main" ]
+  # Exécute automatiquement tous les jours à minuit
+  schedule:
+    - cron: "0 0 * * *"
+  
+  # Permet d'exécuter le workflow manuellement
   workflow_dispatch:
+  
+  # Exécute le workflow sur chaque push sur la branche master
+  push:
+    branches:
+      - master
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
-    # Donne la permission d'écriture sur le contenu du repo pour le token
+    # Autorise l'écriture sur le repo
     permissions:
       contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    # Définition globale de la variable GH_PAT pour tout le job
+    env:
+      GH_PAT: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
-      # Étape : génération du Snake Game
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk@v3
-        env:
-          # On passe le token GitHub Actions intégré
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Optionnel : Checkout du dépôt si besoin
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Génération du SVG du Snake Game à partir du graphe de contributions GitHub
+      - name: Generate GitHub Contribution Grid Snake SVG
+        uses: Platane/snk/svg-only@v3
         with:
+          # Utilise le nom du propriétaire du dépôt
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        # On redéfinit les variables d'environnement dans ce step pour être sûr
+        env:
+          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # (Optionnel) Étape : si vous souhaitez pousser ces fichiers sur une autre branche
-      - name: push generated files
+      # Pousse les fichiers générés vers la branche "output"
+      - name: Push generated files to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
         env:
-          # On réutilise le même token par défaut
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
