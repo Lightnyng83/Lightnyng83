@@ -1,0 +1,41 @@
+name: generate animation
+
+on:
+  # Exécute automatiquement tous les jours à minuit (vous pouvez ajuster le cron si besoin)
+  schedule:
+    - cron: "0 0 * * *"
+  
+  # Permet d'exécuter le workflow manuellement depuis l'onglet Actions
+  workflow_dispatch:
+  
+  # Exécute le workflow à chaque push sur la branche master
+  push:
+    branches:
+      - master
+
+jobs:
+  generate:
+    permissions: 
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+      # Génère un SVG du Snake Game à partir du graphique de contributions GitHub
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          
+      # Pousse le contenu du dossier "dist" vers la branche "output"
+      - name: push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          # Assurez-vous que le token est défini dans vos secrets (souvent nommé GITHUB_TOKEN ou un autre nom personnalisé)
+          GITHUB_TOKEN: ${{ secrets.SnakeGame }}
