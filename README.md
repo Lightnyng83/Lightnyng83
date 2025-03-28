@@ -34,7 +34,7 @@ Quelques-uns de mes projets les plus significatifs :
 
 ## Statistiques GitHub
 
-![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=VOTRE_USERNAME&show_icons=true&theme=radical)
+![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=Lightnyng83&show_icons=true&theme=radical)
 
 ---
 
