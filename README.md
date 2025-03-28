@@ -30,7 +30,6 @@ Quelques-uns de mes projets les plus significatifs :
 
 ## Snake Game
 
-Amuse-toi avec mon Snake Game généré à partir de ma contribution grid grâce à [Generate Snake Game from GitHub Contribution Grid](https://github.com/marketplace/actions/generate-snake-game-from-github-contribution-grid):
 
 <picture>
   <!-- Version dark -->
