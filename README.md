@@ -33,10 +33,17 @@ Quelques-uns de mes projets les plus significatifs :
 Amuse-toi avec mon Snake Game généré à partir de ma contribution grid grâce à [Generate Snake Game from GitHub Contribution Grid](https://github.com/marketplace/actions/generate-snake-game-from-github-contribution-grid):
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
+  <!-- Version dark -->
+  <source media="(prefers-color-scheme: dark)" 
+          srcset="https://raw.githubusercontent.com/Lightnyng83/Lightnyng83/output/github-snake-dark.svg" />
+  <!-- Version light -->
+  <source media="(prefers-color-scheme: light)" 
+          srcset="https://raw.githubusercontent.com/Lightnyng83/Lightnyng83/output/github-snake.svg" />
+  <!-- Fallback image (si le navigateur ne gère pas prefers-color-scheme) -->
+  <img alt="github-snake" 
+       src="https://raw.githubusercontent.com/Lightnyng83/Lightnyng83/output/github-snake.svg" />
 </picture>
+
 
 ---
 
