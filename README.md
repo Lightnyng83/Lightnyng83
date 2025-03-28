@@ -13,9 +13,11 @@ Je suis développeur **.NET/Blazor** passionné et toujours en quête de nouveau
 
 ## Technologies Utilisées
 
-Voici quelques-unes des technologies que j'utilise:
+Voici mon Tech Stack, généré à partir de [TechStack Generator](https://github.com/qkrdmstlr3/techstack-generator) :
 
-- ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)  ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white)  ![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white)  ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  ![NuGet](https://img.shields.io/badge/NuGet-FF6600?style=for-the-badge&logo=nuget&logoColor=white)  ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)  ![SSMS](https://img.shields.io/badge/SSMS-CC2927?style=for-the-badge&logo=sql-server&logoColor=white)  ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)  ![VPS](https://img.shields.io/badge/VPS-2F4F4F?style=for-the-badge&logo=linux&logoColor=white)  ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+<div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="65" height="65" /></div>
+
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)  ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white)  ![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white)  ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)  ![NuGet](https://img.shields.io/badge/NuGet-FF6600?style=for-the-badge&logo=nuget&logoColor=white)  ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)  ![SSMS](https://img.shields.io/badge/SSMS-CC2927?style=for-the-badge&logo=sql-server&logoColor=white)  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)  ![VPS](https://img.shields.io/badge/VPS-2F4F4F?style=for-the-badge&logo=linux&logoColor=white)  ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)  ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ## Projets en avant
 
@@ -23,6 +25,14 @@ Quelques-uns de mes projets les plus significatifs :
 - **Projet 1 :** Hyperion Interstellar Website.
 - **Projet 2 :** HemiolePro GED.
 - **Projet 3 :** Checkmate.
+
+---
+
+## Snake Game
+
+Amuse-toi avec mon Snake Game généré à partir de ma contribution grid grâce à [Generate Snake Game from GitHub Contribution Grid](https://github.com/marketplace/actions/generate-snake-game-from-github-contribution-grid):
+
+![Snake Game](https://raw.githubusercontent.com/Lightnyng83/Lightnyng83/main/snake_game.svg)
 
 ---
 
