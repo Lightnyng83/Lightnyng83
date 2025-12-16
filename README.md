@@ -32,16 +32,14 @@ Quelques-uns de mes projets les plus significatifs :
 
 
 <picture>
-  <!-- Version dark -->
-  <source media="(prefers-color-scheme: dark)" 
-          srcset="https://raw.githubusercontent.com/Lightnyng83/Lightnyng83/output/github-snake-dark.svg" />
-  <!-- Version light -->
-  <source media="(prefers-color-scheme: light)" 
-          srcset="https://raw.githubusercontent.com/Lightnyng83/Lightnyng83/output/github-snake.svg" />
-  <!-- Fallback image (si le navigateur ne gère pas prefers-color-scheme) -->
-  <img alt="github-snake" 
-       src="https://raw.githubusercontent.com/Lightnyng83/Lightnyng83/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)"
+          srcset="https://raw.githubusercontent.com/Lightnyng83/Lightnyng83/output/github-contribution-grid-snake-dark.svg?v=1" />
+  <source media="(prefers-color-scheme: light)"
+          srcset="https://raw.githubusercontent.com/Lightnyng83/Lightnyng83/output/github-contribution-grid-snake.svg?v=1" />
+  <img alt="github-snake"
+       src="https://raw.githubusercontent.com/Lightnyng83/Lightnyng83/output/github-contribution-grid-snake.svg?v=1" />
 </picture>
+
 
 
 ---
