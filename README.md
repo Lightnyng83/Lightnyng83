@@ -1,5 +1,5 @@
 
-# Bienvenue sur mon profil GitHub du PandaCodeur !  
+# Bienvenue sur mon profil GitHub!  
 Je suis développeur **.NET/Blazor** passionné et toujours en quête de nouveaux défis pour perfectionner mes compétences et partager mes connaissances.
 
 ---
