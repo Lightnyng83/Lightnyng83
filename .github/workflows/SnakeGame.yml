@@ -11,6 +11,7 @@ on:
   # Exécute le workflow sur chaque push sur la branche master
   push:
     branches:
+      - main
       - master
 
 jobs:
