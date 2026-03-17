@@ -24,7 +24,7 @@ Voici mon Tech Stack, généré à partir de [TechStack Generator](https://githu
 Quelques-uns de mes projets les plus significatifs :
 - **Projet 1 :** Hyperion Interstellar Website.
 - **Projet 2 :** HemiolePro GED.
-- **Projet 3 :** Checkmate.
+- **Projet 3 :** Equinoxe.
 
 ---
 
